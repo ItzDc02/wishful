@@ -1,0 +1,61 @@
+# --- Node / Package managers ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# --- Build outputs ---
+dist/
+build/
+.tmp/
+.temp/
+.cache/
+.vite/
+**/dist/
+**/.vite/
+
+# --- Vite / React client ---
+client/dist/
+client/.vite/
+
+# --- Server compiled output (if you ever transpile) ---
+server/dist/
+
+# --- Local JSON "DB" & misc runtime files ---
+server/db.json
+data/**/*.json
+
+# --- Env & secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+
+# --- Coverage / testing ---
+coverage/
+.vitest/
+jest-html-reporters-*.html
+
+# --- IDE / OS junk ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Vercel / Netlify / etc. ---
+.vercel/
+.netlify/
+
+# --- Type checker caches (tsc, vue-tsc, etc.) ---
+.tsbuildinfo
